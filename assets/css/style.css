@@ -620,8 +620,21 @@ justify-content: center;
 .bar{
   width: 24px;
 background-color: #292D32;
-border: 2px solid #292D32;
+border: 1px solid #292D32;
+transition: all 0.4s ease-in-out;
+
 }
+.main-nav.nav__expanded .bar-one{
+  transform: rotate(-45deg)  translate(-10px,10px);
+  margin: 8px 0;
+  }
+  .main-nav.nav__expanded .bar-two{
+    opacity: 0;
+  }
+  .main-nav.nav__expanded .bar-three{
+    transform: rotate(45deg) translate(-11px,-13px);
+    margin: 8px 0;
+  }
 .nav__btn-group{
   display: flex;
   align-items: center;
