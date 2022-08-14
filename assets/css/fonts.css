@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'IRANSans';
+  font-weight: 400;
+  src: 
+       url("./assets/fonts/IRANSansWeb.woff") format('woff');
+}
+@font-face {
+  font-family: 'IRANSans';
+  font-weight: 700;
+
+  src: 
+       url("./assets/fonts/IRANSansWeb_Bold.woff") format('woff');
+}
+@font-face {
+  font-family: 'IRANSans';
+  font-weight: 500;
+
+  src: 
+       url("./assets/fonts/IRANSansWeb_Medium.woff") format('woff');
+}
+
+body,button,textarea{
+    font-family: IRANSans;
+}
